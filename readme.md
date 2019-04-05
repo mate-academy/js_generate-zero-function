@@ -1,4 +1,4 @@
-# Boilerplate for JS tasks
+# Generage Zero function
 
 **Read the guideline before start**
 
