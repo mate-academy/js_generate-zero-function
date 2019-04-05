@@ -5,8 +5,8 @@
  *
  * It returns function which returns 0
  *
- * const f = generateZeroFunction();
- * f() === 0;
+ * const getZero = generateZeroFunction();
+ * getZero() === 0;
  *
  * @return {function}
  *
