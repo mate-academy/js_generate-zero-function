@@ -8,11 +8,14 @@
  * const getZero = generateZeroFunction();
  * getZero() === 0;
  *
- * @return {function}
+ * @return {function(): number}
  *
  */
 function generateZeroFunction() {
   // write code here
+  return function getZero() {
+    return 0;
+  };
 }
 
 module.exports = generateZeroFunction;
