@@ -12,6 +12,11 @@
  *
  */
 function generateZeroFunction() {
+  const isZero = () => {
+    return 0;
+  };
+
+  return isZero;
   // write code here
 }
 
