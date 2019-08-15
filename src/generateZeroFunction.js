@@ -13,7 +13,7 @@
  */
 function generateZeroFunction() {
   // write code here
-  return zero();
+  return zero;
 }
 function zero() {
   return 0;
