@@ -13,10 +13,10 @@
  */
 function generateZeroFunction() {
   // write code here
+  function zero() {
+    return 0;
+  }
   return zero;
-}
-function zero() {
-  return 0;
 }
 
 module.exports = generateZeroFunction;
