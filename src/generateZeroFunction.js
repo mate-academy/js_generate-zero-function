@@ -12,7 +12,7 @@
  *
  */
 function generateZeroFunction() {
-  return function(zero) {
+  return function() {
     return 0;
   };
 }
