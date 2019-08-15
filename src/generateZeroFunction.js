@@ -13,9 +13,7 @@
  */
 function generateZeroFunction() {
   return function(zero) {
-    if (zero === undefined) {
-      return 0;
-    }
+    return 0;
   };
 }
 
