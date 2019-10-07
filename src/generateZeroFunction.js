@@ -12,10 +12,8 @@
  *
  */
 function generateZeroFunction() {
-  const zero = a => {
-    let b = a;
-    b = 0;
-    return b;
+  const zero = () => {
+    return 0;
   };
   return zero;
 }
