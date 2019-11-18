@@ -1,4 +1,7 @@
 {
+  "jest": {
+    "testEnvironment": "node"
+  },
   "name": "generage-zero-function",
   "version": "1.0.0",
   "description": "Generate Zero function",
