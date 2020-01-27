@@ -12,11 +12,11 @@
  *
  */
 function generateZeroFunction() {
-  const getZero = () => {
+  return () => {
     return 0;
   };
 
-  return getZero;
+  // return getZero;
 }
 
 module.exports = generateZeroFunction;
