@@ -9,6 +9,7 @@ test('First call returns function', () => {
 
 test('Second call returns zero', () => {
   const getZero = generateZeroFunction();
+
   expect(getZero())
     .toBe(0);
 });
