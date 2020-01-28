@@ -1,4 +1,4 @@
-# Generage Zero function
+3# Generage Zero function
 
 **Read the guideline before start**
 
