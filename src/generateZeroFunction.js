@@ -11,8 +11,13 @@
  * @return {function}
  *
  */
-function generateZeroFunction() {
+function generateZeroFunction(getZero) {
   // write code here
+  
+  return function() {
+
+    return 0;
+  };
 }
 
 module.exports = generateZeroFunction;
