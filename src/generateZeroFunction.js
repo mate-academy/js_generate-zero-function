@@ -1,5 +1,5 @@
 'use strict';
-/* eslint-disable */
+
 /**
  * Implement generateZeroFunction function:
  *
@@ -12,7 +12,9 @@
  *
  */
 function generateZeroFunction() {
-return function(){return 0}
+  return function() {
+    return 0;
+  };
 }
 
 module.exports = generateZeroFunction;
