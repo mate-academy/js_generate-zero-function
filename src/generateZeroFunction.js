@@ -12,7 +12,9 @@
  *
  */
 function generateZeroFunction() {
-  // write code here
+  return () => 0;
 }
+
+generateZeroFunction(1);
 
 module.exports = generateZeroFunction;
