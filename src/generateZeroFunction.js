@@ -15,6 +15,4 @@ function generateZeroFunction() {
   return () => 0;
 }
 
-generateZeroFunction(1);
-
 module.exports = generateZeroFunction;
